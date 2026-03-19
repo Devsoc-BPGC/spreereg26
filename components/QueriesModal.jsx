@@ -3,7 +3,7 @@ import React from "react";
 const QueriesModal = ({ isOpen, setIsOpen }) => {
   const contacts = [
     {
-      name: "Jehan Daftari",
+      name: "Devansh Wason",
       role: "Spree Controls Events Head",
       phone: "+91 9667289984"
     },
