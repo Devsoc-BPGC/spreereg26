@@ -21,10 +21,10 @@ export default function GalaxyScene({ phase, logoData }) {
   }, []);
 
   const guiChange = {
-    radius: 8,
+    radius: 10,
     spin: 0.8,
     branch: 4,
-    power: 3,
+    power: 4,
     insideColor: '#ff6030',
     outsideColor: '#1b3984',
   };
@@ -60,7 +60,7 @@ export default function GalaxyScene({ phase, logoData }) {
       galaxyColors[i3 + 2] = mixedColor.b;
     }
 
-    for (let i = 0; i < 100000; i++) {
+    for (let i = 0; i < 20000; i++) {
       starPos[i] = (Math.random() - 0.5) * 20;
     }
 
