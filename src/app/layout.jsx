@@ -1,17 +1,24 @@
 import "../styles/globals.css";
 import Footer from "../../components/footer";
 export const metadata = {
-  title: "SPREE 2026",
+  title: "BITS Spree Registration 2026 | Register for Spree Goa",
   description:
-    "Annual Sports Festival of BITS Goa, SPREE 2026 is a three-day extravaganza of sports, camaraderie, and unforgettable moments.SPREE 2026 promises to be the ultimate arena for athletes and sports enthusiasts alike. Join us from April 3rd to 4th for an unforgettable experience where champions are made and legends are born.",
+    "Register for BITS Spree 2026, the annual sports festival of BITS Goa. Join athletes from across the country from April 3–5. Secure your spot now for Spree registration.",
+  
   openGraph: {
-    title: "SPREE Registration 2026",
-    description: "Spree 2026 is the annual sports festival of BITS Goa, held from April 3rd to 5th. Join us for an unforgettable experience where champions are made and legends are born.",
+    title: "BITS Spree Registration 2026",
+    description:
+      "Official registration portal for BITS Spree 2026. Sign up now and be part of the biggest sports festival at BITS Goa.",
+    url: "https://register.bits-spree.in",
+    siteName: "BITS Spree",
+    type: "website",
   },
+
   icons: {
     icon: "/favicon.png",
   },
 };
+
 
 export const viewport = {
   width: "device-width",
