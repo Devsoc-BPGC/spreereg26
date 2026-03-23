@@ -90,6 +90,18 @@ export default function Page() {
       `}
       >
         <div className="flex flex-col items-center gap-3 md:gap-4 w-full max-w-[460px] px-6">
+          <div
+            className={`
+      text-center transition-all duration-700 ease-out
+      ${showUI ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
+    `}
+            style={{ transitionDelay: "100ms" }}
+          >
+            <p className="text-[clamp(0.65rem,2vw,0.85rem)] tracking-[0.3em] text-white uppercase">
+              April 3rd – 5th, 2026
+            </p>
+            <div className="h-px w-16 mx-auto mt-2 bg-gradient-to-r from-transparent via-orange-400/50 to-transparent" />
+          </div>
           <div className="grid gap-3 md:gap-4 w-full">
             <BannerButton
               label="RULEBOOK"
@@ -110,7 +122,12 @@ export default function Page() {
               visible={showUI}
               onClick={handlePayClick}
             />
-            <BannerButton label="QUERIES" delay={400} visible={showUI} onClick={() => setQueriesOpen(true)} />
+            <BannerButton
+              label="QUERIES"
+              delay={400}
+              visible={showUI}
+              onClick={() => setQueriesOpen(true)}
+            />
           </div>
 
           <div className="w-full mt-1 md:mt-2">

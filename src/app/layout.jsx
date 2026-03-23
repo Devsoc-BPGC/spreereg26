@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-
+import Footer from "../../components/footer";
 export const metadata = {
   title: "SPREE 2026",
   description:
@@ -22,7 +22,10 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body className="noise-overlay">{children}</body>
+      <body className="noise-overlay">{children}
+
+      <Footer />
+      </body>
     </html>
   );
 }
