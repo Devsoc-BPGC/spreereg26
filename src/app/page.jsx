@@ -159,6 +159,14 @@ export default function Page() {
           <QueriesModal isOpen={queriesOpen} setIsOpen={setQueriesOpen} />
         </div>
       )}
+      <div className="sr-only">
+        <h1>BITS Spree Registration 2026</h1>
+        <p>
+          Register for BITS Spree 2026, the annual sports festival of BITS Goa.
+          Participate in various sports events and competitions. Complete your
+          Spree registration here.
+        </p>
+      </div>
     </div>
   );
 }
