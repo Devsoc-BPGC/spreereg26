@@ -15,8 +15,8 @@ export const EVENT_OPTIONS = [
       "Snooker",
       "Squash",
       "Powerlifting",
-      "Frisbee",
-      "Athletics"
+      "Athletics",
+      "Taekwondo"
     ],
   },
 ];

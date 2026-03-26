@@ -16,6 +16,11 @@ const QueriesModal = ({ isOpen, setIsOpen }) => {
       name: "Tanishq Srivastav",
       role: "Spree Controls Chief Coordinator",
       phone: "+91 9555606071"
+    },
+    {
+      name: "Rachit Tharwani",
+      role: "Publicity and PR Head",
+      phone: "+91 87189 65750"
     }
   ];
 

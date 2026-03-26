@@ -98,7 +98,7 @@ export default function Page() {
             style={{ transitionDelay: "100ms" }}
           >
             <p className="text-[clamp(0.65rem,2vw,0.85rem)] tracking-[0.3em] text-white uppercase">
-              April 3rd – 5th, 2026
+              April 1st – 5th, 2026
             </p>
             <div className="h-px w-16 mx-auto mt-2 bg-gradient-to-r from-transparent via-orange-400/50 to-transparent" />
           </div>
